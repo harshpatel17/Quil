@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar body;
+
+<bodyWords> =  chest    |
+               back     |
+               shoulders|
+               legs     |
+               arms     |
+               core     |
+               rest     ;
+
+public <body> = <bodyWords>+;

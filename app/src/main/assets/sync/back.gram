@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar back;
+
+<backWords> =  back     |
+               lat      |
+               press    |
+               pulldown ;
+
+public <back> = <backWords>+;
+

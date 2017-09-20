@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar core;
+
+<coreWords> =  sit | ups | planks | left | right;
+
+public <core> = <coreWords>+;
+

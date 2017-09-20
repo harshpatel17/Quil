@@ -1,0 +1,16 @@
+#JSGF V1.0;
+
+grammar arms;
+
+<armWords> =   biceps   |
+               forearm  |
+               forearms |
+               triceps  |
+               curl     |
+               curls    |
+               dumbbell |
+               reps     |
+               sets     ;
+
+public <arms> = <armWords>+;
+

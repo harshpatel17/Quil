@@ -1,0 +1,24 @@
+#JSGF V1.0;
+
+grammar chest;
+
+<chestWords> = chest    |
+               press    |
+               bench    |
+               barbell  |
+               dumbbell |
+               push-ups  |
+               flies    |
+               incline  |
+               low      |
+               cable    |
+               crossover|
+               decline  |
+               dips     |
+               wide     |
+               hand     |
+               butterfly|
+               standing ;
+
+public <chest> = <chestWords>+;
+

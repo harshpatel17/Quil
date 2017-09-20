@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar shoulders;
+
+<shoulderWords> = shoulder    |
+                  press       |
+                  bench       |
+                  dumbbell    ;
+
+public <shoulders> = <shoulderWords>+;
+
